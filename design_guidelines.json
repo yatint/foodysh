@@ -1,0 +1,308 @@
+{
+  "project_name": "Foodysh — Nashik Food Delivery Landing Page",
+  "app_type": "landing_page",
+  "theme": "light",
+  "colors": {
+    "primary": "#FF5C1A",
+    "secondary": "#17A34A",
+    "accent": "#FFC531",
+    "on_accent": "#1A1A1A",
+    "brand_dark_green": "#0F5125",
+    "surfaces": [
+      {
+        "name": "page",
+        "kind": "solid",
+        "bg": "#FFFDF9",
+        "on_bg": "#1C1917",
+        "on_bg_muted": "#57534E",
+        "roles": {
+          "link": "#FF5C1A",
+          "error": "#DC2626",
+          "success": "#16A34A"
+        }
+      },
+      {
+        "name": "panel",
+        "kind": "solid",
+        "bg": "#FFFFFF",
+        "on_bg": "#1C1917",
+        "on_bg_muted": "#57534E",
+        "roles": {
+          "border": "#F3E8E2",
+          "highlight": "#FF5C1A"
+        }
+      },
+      {
+        "name": "warm_surface",
+        "kind": "solid",
+        "bg": "#FFF4ED",
+        "on_bg": "#1C1917",
+        "on_bg_muted": "#78350F"
+      },
+      {
+        "name": "badge_orange",
+        "kind": "solid",
+        "bg": "#FFEDE5",
+        "on_bg": "#9A3412",
+        "on_bg_muted": "#C2410C"
+      },
+      {
+        "name": "badge_green",
+        "kind": "solid",
+        "bg": "#DCFCE7",
+        "on_bg": "#14532D",
+        "on_bg_muted": "#166534"
+      },
+      {
+        "name": "badge_yellow",
+        "kind": "solid",
+        "bg": "#FEF9C3",
+        "on_bg": "#713F12",
+        "on_bg_muted": "#854D0E"
+      },
+      {
+        "name": "hero_video_overlay",
+        "kind": "video",
+        "contrast_against": "#120B06",
+        "guarantee": "scrim: linear-gradient(180deg, rgba(15,10,6,0.65) 0%, rgba(15,10,6,0.3) 50%, rgba(15,10,6,0.85) 100%)",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#FED7AA",
+        "roles": {
+          "accent": "#FFC531",
+          "pill_bg": "rgba(255,255,255,0.15)",
+          "pill_border": "rgba(255,255,255,0.25)"
+        }
+      },
+      {
+        "name": "header_crystal",
+        "kind": "glass",
+        "contrast_against": "#1C1917",
+        "guarantee": "backdrop-blur-xl bg-white/85 border-b border-orange-100/60 shadow-sm",
+        "on_bg": "#1C1917",
+        "on_bg_muted": "#57534E"
+      },
+      {
+        "name": "inverse_dark_footer",
+        "kind": "solid",
+        "bg": "#0D1F12",
+        "on_bg": "#F8FAFC",
+        "on_bg_muted": "#86EFAC",
+        "roles": {
+          "accent": "#FFC531",
+          "orange": "#FF7A3D",
+          "border": "#1B3E25"
+        }
+      }
+    ]
+  },
+  "typography": {
+    "font_heading": "'Plus Jakarta Sans', sans-serif",
+    "font_body": "'DM Sans', sans-serif",
+    "font_script": "'Playfair Display', serif",
+    "font_mono": "'JetBrains Mono', monospace",
+    "scale_px": {
+      "display": 60,
+      "h1": 48,
+      "h2": 36,
+      "h3": 24,
+      "h4": 20,
+      "body": 16,
+      "caption": 14
+    },
+    "letter_spacing": {
+      "display": "tracking-tight",
+      "heading": "tracking-tight",
+      "overline": "tracking-[0.2em] uppercase font-bold text-xs"
+    }
+  },
+  "entry_surfaces": {
+    "/": "split kinetic hero with looping cooking montage video, floating interactive food badge pills, quick search dish/restaurant input, and animated marquee ribbon"
+  },
+  "brand_identity": {
+    "name": "Foodysh",
+    "tagline": "Good Food • Faster • Happier",
+    "location": "Nashik, Maharashtra, India",
+    "logo_elements": {
+      "foody_text": "Gradient orange-to-red (#FF5C1A to #EA580C) bold bubbly letters with animated playful googly eyes in 'oo'",
+      "sh_text": "Vibrant fresh green (#17A34A)",
+      "crown": "Three flavor droplets (Orange #FF5C1A, Green #17A34A, Sunny Yellow #FFC531)",
+      "tagline_style": "Dark forest green (#0F5125) script / clean rounded overline"
+    }
+  },
+  "visual_enhancers": {
+    "rounded_corners": "rounded-3xl and rounded-full for badges and buttons",
+    "borders": "1px solid #F3E8E2 with warm orange/green glow on hover",
+    "shadows": "shadow-[0_12px_36px_rgba(255,92,26,0.08)] and direct crisp card borders",
+    "marquee": "Slow editorial organic ribbon featuring Nashik delicacies (Misal Pav, Grape Valley Wines, Pithla Bhakri, Dum Biryani, Kanda Bhaji) and the brand tagline"
+  },
+  "media": {
+    "hero_video_sources": [
+      {
+        "type": "mp4",
+        "url": "https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-chef-preparing-a-dish-in-a-pan-43098-large.mp4",
+        "fallback_poster": "https://images.pexels.com/photos/4570082/pexels-photo-4570082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Lively loop of chef preparing sizzled fresh food in pan"
+      }
+    ],
+    "image_urls": {
+      "nashik_specialties": [
+        {
+          "name": "Nashik Kat Misal Pav Thali",
+          "category": "nashik_cuisine",
+          "url": "https://images.pexels.com/photos/17223837/pexels-photo-17223837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "restaurant": "Sadhana Chulivarchi Misal",
+          "rating": 4.9,
+          "prep_time": "18 mins",
+          "price": "₹120",
+          "badge": "Nashik #1 Bestseller"
+        },
+        {
+          "name": "Dum Matka Biryani",
+          "category": "nashik_cuisine",
+          "url": "https://images.pexels.com/photos/31537384/pexels-photo-31537384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "restaurant": "Barbeque Villa & Biryani House",
+          "rating": 4.8,
+          "prep_time": "25 mins",
+          "price": "₹280",
+          "badge": "Chef Special"
+        },
+        {
+          "name": "Traditional Pithla Bhakri Thali",
+          "category": "nashik_cuisine",
+          "url": "https://images.pexels.com/photos/17223836/pexels-photo-17223836.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "restaurant": "Hotel Radhakrishna Pure Veg",
+          "rating": 4.7,
+          "prep_time": "20 mins",
+          "price": "₹160",
+          "badge": "Maharashtrian Authentic"
+        },
+        {
+          "name": "Sizzling Kanda Bhaji & Jalebi",
+          "category": "street_food",
+          "url": "https://images.unsplash.com/photo-1621334721541-370a13974de8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MTJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBzdHJlZXQlMjBmb29kJTIwY29va2luZ3xlbnwwfHx8fDE3OTAzMjI5ODB8MA&ixlib=rb-4.1.0&q=85",
+          "restaurant": "Gangapur Road Treat Corner",
+          "rating": 4.6,
+          "prep_time": "15 mins",
+          "price": "₹90",
+          "badge": "Evening Craving"
+        },
+        {
+          "name": "Special Shahi Chicken Curry",
+          "category": "curry_special",
+          "url": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHw0fHxiaXJ5YW5pJTIwY3VycnklMjByZXN0YXVyYW50JTIwZGlzaHxlbnwwfHx8fDE3OTAzMjI5ODB8MA&ixlib=rb-4.1.0&q=85",
+          "restaurant": "Al-Khatib Dawat Nashik",
+          "rating": 4.8,
+          "prep_time": "22 mins",
+          "price": "₹320",
+          "badge": "Non-Veg King"
+        },
+        {
+          "name": "Crispy Tandoori Naan & Paneer Butter",
+          "category": "north_indian",
+          "url": "https://images.pexels.com/photos/34943745/pexels-photo-34943745.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "restaurant": "Panchavati Gaurav Thali",
+          "rating": 4.9,
+          "prep_time": "20 mins",
+          "price": "₹240",
+          "badge": "Family Favorite"
+        }
+      ]
+    }
+  },
+  "sections_breakdown": [
+    {
+      "id": "hero",
+      "title": "Hero Video & Quick Search",
+      "features": [
+        "Full-bleed looped HD cooking video with warm dark gradient overlay for optimal readability",
+        "Kinetic headline 'Good Food from Nashik's Finest Kitchens • Faster • Happier'",
+        "Live interactive search box with instant cuisine tags (Misal Pav, Biryani, Street Chaat, Pure Veg, Desserts)",
+        "Key stats pills: '350+ Nashik Restaurants', '⚡ 22 Mins Avg Delivery', '⭐ 4.9/5 Rating'"
+      ]
+    },
+    {
+      "id": "marquee_ribbon",
+      "title": "Editorial Foodysh Ticker",
+      "features": [
+        "Infinite smooth marquee with custom droplet icon separators",
+        "Keywords: Sadhana Misal • College Road Cafes • Gangapur Vineyard Treats • Dum Biryani • Hot Jalebis • Panchavati Spices • 100% Contactless"
+      ]
+    },
+    {
+      "id": "popular_cuisines",
+      "title": "Cuisine Explorer",
+      "features": [
+        "Playful interactive pill and card grid with vibrant color accents",
+        "Filters: All, Nashik Specials, Biryani & Mughlai, Street Food, Pure Veg, Desserts & Shakes",
+        "Micro-animations with hover lift, rotating badge tags, and dish details modal preview"
+      ]
+    },
+    {
+      "id": "top_restaurants",
+      "title": "Top Nashik Kitchens Showcase",
+      "features": [
+        "Display-only curated card layout with high-res photography",
+        "Interactive badges: Delivery time, safety hygiene tag, offers (e.g. '50% OFF up to ₹100')",
+        "Live Nashik location tags: College Road, Gangapur Road, Panchavati, Mahatma Nagar, Indira Nagar, Nashik Road"
+      ]
+    },
+    {
+      "id": "how_it_works",
+      "title": "How Foodysh Works in 3 Simple Steps",
+      "features": [
+        "Step 1: Choose Your Cravings (Explore curated Nashik menu cards)",
+        "Step 2: Lightning Fast Dispatch (Live GPS tracking from kitchen to doorstep)",
+        "Step 3: Relish & Smile (Steaming hot food with happiness guaranteed)",
+        "Visual 3D/playful icons with connected dotted trail"
+      ]
+    },
+    {
+      "id": "foodysh_perks",
+      "title": "Why Nashik Loves Foodysh",
+      "features": [
+        "Zero surge pricing during monsoon rains",
+        "Direct local restaurant partnerships (fair commissions)",
+        "Eco-friendly thermal insulated delivery bags",
+        "Exclusive Nashik Food Festival passes"
+      ]
+    },
+    {
+      "id": "app_download",
+      "title": "Get the Foodysh App",
+      "features": [
+        "Split visual banner with simulated mobile app preview mockup",
+        "App Store and Google Play download buttons with rating badges (4.8 ★ from 50k+ reviews)",
+        "SMS/WhatsApp link input box to receive instant download link"
+      ]
+    },
+    {
+      "id": "footer",
+      "title": "Nashik Local Hub & Footer",
+      "features": [
+        "Dark forest green background with warm orange accents",
+        "City coverage breakdown: Panchavati, Gangapur Road, College Road, Indira Nagar, CIDCO, Satpur, Nashik Road",
+        "Contact: hello@foodysh.in | +91 253 2500890 | Foodysh Tower, Thatte Nagar, Nashik 422005",
+        "Social links, newsletter signup, and copyright notice"
+      ]
+    }
+  ],
+  "motion": {
+    "smooth_scroll": "Lenis smooth scroll integration",
+    "framer_motion": "Staggered fade-up for restaurant cards, floating droplet particle micro-animations, googly eyes tracking cursor on logo hover",
+    "cursor_effects": "Gentle magnetic pull on primary CTA buttons"
+  },
+  "accessibility": {
+    "wcag_level": "WCAG AA (minimum 4.5:1 contrast for normal text, 3:1 for large)",
+    "prefers_reduced_motion": "Respect system settings and disable parallax/marquee on reduced motion",
+    "data_testids": "All interactive buttons, search inputs, cuisine filter tabs, restaurant cards, and download buttons must have role-based kebab-case testids"
+  },
+  "instructions_to_main_agent": [
+    "Retain the bright, playful, rounded look with crisp white/warm-cream background, vibrant Foodysh orange (#FF5C1A), fresh green (#17A34A), and sunny yellow (#FFC531).",
+    "Ensure the hero video autoplays muted in a loop with fallback poster and dark gradient overlay so all text remains crisp and 100% accessible.",
+    "Render the authentic Foodysh SVG logo featuring googly eyes in 'oo', 3 colorful crown droplets, and the tagline 'Good Food • Faster • Happier'.",
+    "Include high-fidelity Nashik restaurant data (Sadhana Chulivarchi Misal, Barbeque Villa, Panchavati Gaurav, Hotel Radhakrishna, Al-Khatib Dawat, etc.) with real photos from the media list.",
+    "Add interactive filters for cuisines, active search bar that filters displayed dishes/restaurants in real-time, and a dish preview dialog using Shadcn Dialog.",
+    "Add toast notification triggers (e.g. 'Link sent to your phone!', 'Restaurant added to favorites!') using Sonner.",
+    "Ensure all buttons, inputs, links, and cards have proper data-testid attributes."
+  ]
+}
